@@ -167,7 +167,7 @@ ul.link-list li a:focus ,
 }
 
 .tile.bg-gradient-light-blue-teal .decorator:before {
-    background-color: #E44C9A;
+    background-color: E5D216;
 }
 .tile.bg-light-gold .decorator:before {
     background-color: #1295D8;
@@ -200,11 +200,11 @@ ul.link-list li a:focus ,
 }
 
 .tile.bg-gradient-light-blue-teal .link-list li{
-    color: #E44C9A;
+    color: E5D216;
 }
 
 .tile.bg-gradient-light-blue-teal .link-list li {
-    color: #E44C9A;
+    color: E5D216;
 }
 
 .tile.bg-gradient-orange-pink .link-list li, 
@@ -317,11 +317,11 @@ ul.link-list li a:focus ,
 }
 
 .right-column-blocks [class*="ov-slashes"] .link-list li {
-    color: #E44C9A;
+    color: E5D216;
 }
 
 .right-column-blocks [class*="ov-slashes"] .decorator:before {
-    background-color: #E44C9A;
+    background-color: E5D216;
 }
 
 .index-blocks a, 
@@ -362,7 +362,7 @@ ul.link-list li a:focus ,
 }
 
 .index-full-width.bg-gradient-uc-blue-blue .decorator:before {
-    background-color: #E44C9A;
+    background-color: E5D216;
 }
 
 /** Banner video **/
@@ -479,7 +479,7 @@ ul.link-list li a:focus ,
 }
 
 .sidenav a.current-page {
-    color: #E44C9A;
+    color: E5D216;
     font-weight: 700;
 }
 
@@ -753,7 +753,7 @@ a#btn-carousel-play {
     color: #ddd;
 }
 a#btn-carousel-play:hover {
-    color: #E44C9A ;  
+    color: E5D216 ;  
 }
 
 a#btn-carousel-play:focus {
