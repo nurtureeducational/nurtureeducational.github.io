@@ -15,4 +15,4 @@ name = unescape(params["name"]);
 phone = unescape(params["phone"]);
 message = unescape(params["message"]);
 window.open('https://api.whatsapp.com/send?phone=+919751294297&text=NAME : '
-+ name +',\n PHONE : '+ phone +',\n MESSAGE : '+ message +'');
++ name +',%0a\n PHONE : '+ phone +',%0a\n MESSAGE : '+ message +'');
