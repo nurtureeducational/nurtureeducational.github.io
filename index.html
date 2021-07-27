@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
+  <meta http-equiv="Cache-control" content="public, max-age=31536000" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
@@ -41,8 +42,8 @@
   <link rel="icon" type="image/png" href="./resources/favicons/favicon.png" sizes="96x96" />
   <link rel="icon" type="image/png" href="./resources/favicons/favicon.png" sizes="192x192" />
   <link rel="icon" type="image/png" href="./resources/favicons/favicon.png" sizes="16x16" />
-  <link href="./resources/css/style.css" rel="stylesheet" />
-  <link href="./resources/css/admission.css" rel="stylesheet" />
+  <link type="text/css" href="./resources/css/style.min.css" rel="stylesheet" />
+  <link type="text/css" href="./resources/css/main.min.css" rel="stylesheet" />
   <style>.mySlides{display:none;}</style>
 </head>
 <body>
@@ -52,7 +53,7 @@
         <div class="container" style="height: 76px;">
           <nav class="navbar navbar-expand-md navbar-light" style="height: 76px;align-items: center;">
             <a class="navbar-brand" href="/" style="margin: 0;height: 76px;align-items: center;">
-              <img id="Layer_1" height="50" src="./resources/img/logo.png" alt="Nurture International Education Service" />
+              <img id="Layer_1" height="50" src="./resources/favicons/logo.png" alt="Nurture International Education Service" />
             </a>
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent-desktop" style="height: 76px; align-items: baseline;">
               <ul class="navbar-nav navbar-items-menu">
@@ -65,7 +66,7 @@
               </ul>
               <ul class="navbar-nav navbar-items-btn" style="margin: 0;">
                 <li class="nav-item">
-                  <a class="btn btn-primary" href="./pages/enquiry.html" style="padding: 30px;">Enquiry now</a>
+                  <a class="btn btn-primary" href="./pages/enquiry.html" style="padding: 29.5px;">Enquiry now</a>
                 </li>
               </ul>
             </div>
@@ -77,7 +78,7 @@
       <div class="nav-main ov-nav-dark-blue bg-slashes-combo-pink-orange-nav ov-opacity-70">
         <nav class="navbar navbar-mobile container">
           <a class="navbar-brand" href="/" style="margin: 0;height: 76px;align-items: center;">
-            <img id="Layer_1_mobile" height="50" src="./resources/img/logo.png" alt="Nurture International Education Service" />
+            <img id="Layer_1_mobile" height="50" src="./resources/favicons/logo.png" alt="Nurture International Education Service" />
           </a>
           <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler collapsed" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
             <span class="navbar-toggler-icon"></span>
@@ -113,13 +114,13 @@
           </div>
           <div class="container pt-3">
             <ul class="nav-mobile-icons">
-              <li class="nav-item nav-item-icon"><a href="tel:+919884454499">+91-98644 59749</a></li>
+              <li class="nav-item nav-item-icon"><a href="tel:8610993215">+91-86109 93215</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
-    <script src="./resources/js/homepage.js"></script>
+    <script src="./resources/js/navbar.min.js" type="text/javascript"></script>
   </header>
   <div class="container-hybrid main" id="main-content">
     <div class="carousel slide" data-ride="carousel" id="home-hero" role="complementary">
@@ -244,30 +245,41 @@
       </div>
     </div>
   </div>
-  <script>var myIndex = 0;carousel();function carousel(){var i;var x = document.getElementsByClassName("mySlides");for (i = 0; i < x.length; i++) {x[i].style.display = "none";}myIndex++;if (myIndex > x.length) {myIndex = 1}x[myIndex-1].style.display = "block";setTimeout(carousel, 3000);}</script>
+  <script src="./resources/js/carousel.min.js" type="text/javascript"></script>
+  <div class="container-hybrid">
+    <div class="tile-group index-blocks pt-5 pb-5" style="background: #fff !important;">
+      <div class="container text-center">
+        <h1 class="cover-heading" style="color: #E5D216;">Nurture Educational</h1>
+        <p class="lead" style="color: #A5A5A5;text-align: justify;font-size: 1.1rem;line-height: 1.25rem;letter-spacing: .01em;">
+          For the students, it is crucial to choose the profession course to meet their profession goal. In addition to this, it is equality vital to pick out the proper and the fine training institute. Unfortunately, there are many college students who in spite of obtaining properly marks and ranks in the assessments fail to get admission in the favored institute. Also, due to the fact of the lack of information and statistics many college students are now not capable to get the pleasant they deserve. When choose to get the admission in the pinnacle institute then you will require a corporation that can grant the professional opinion. If you are searching to get the admission medical, Engineering, Paramedical and other expert publications in a reputed university and college then VMR Educational Consultancy can assist presenting the great provider and assistance.
+        </p>
+        <p class="lead">
+          <a href="./pages/about.html" class="btn btn-primary btn-sm text-white" style="padding: 15px;">Learn more</a>
+        </p>
+      </div>
+    </div>
+  </div>
   <div class="container-hybrid">
     <div class="tile-group index-blocks">
+      <div class="tile tile-square tile-2up bg-light-gold" style="background: #e5d216 !important;">
+        <div class="tile-body">
+          <p style="text-align: justify;">
+            You've got what it takes to get a Indian degree. So what are you
+            waiting for? Find everything you need to apply to the best public
+            university system in the world.
+          </p>
+          <p style="text-align: justify;">
+            Nurture Educational is one of the main instructional consultancies. We have been imparting our offerings Educational for one years. Our major goal is to grant the wished help and practise to the college students to get the admission in the favored university.
+          </p>
+          <ul class="link-list">
+            <li><a href="./pages/university.html">Explore the University</a></li>
+          </ul>
+        </div>
+      </div>
       <div class="tile tile-square tile-2up text-white tile-align-bottom bg-image-cover" style="background: url(./resources/images/student.jpg) rgba(000, 000, 000, 0.3);background-repeat: no-repeat;background-position: bottom;background-size: cover;background-blend-mode: multiply;">
         <div class="tile-body">
-          <span class="decorator"></span>
           <h2>What makes India unique?</h2>
           <p><span>Extraordinary students from across India</span>.</p>
-          <ul class="link-list">
-            <li><a href="./pages/services.html">Explore the Services</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="tile tile-square tile-2up bg-light-gold" style="background: #e5d216 !important;">
-        <div class="tile-body">
-          <span class="decorator"></span>
-          <h2>
-            9 out of 10 Indian students who applied to India last year got in.
-          </h2>
-          <p>
-            You've got what it takes to get a Indian degree. So what are you
-            waiting for? Find everything you need to apply to the best public
-            university system in the world.
-          </p>
           <ul class="link-list">
             <li><a href="./pages/university.html">Explore the University</a></li>
           </ul>
@@ -276,60 +288,67 @@
     </div>
   </div>
   <div class="container-hybrid">
-    <div class="tile-group index-blocks">
-      <div class="tile tile-square tile-2up bg-light-gold" style="background: #e5d216 !important;">
-        <div class="tile-body">
-          <span class="decorator"></span>
-          <h2>
-            9 out of 10 Indian students who applied to India last year got in.
-          </h2>
-          <p>
-            You've got what it takes to get a Indian degree. So what are you
-            waiting for? Find everything you need to apply to the best public
-            university system in the world.
-          </p>
-          <ul class="link-list">
-            <li><a href="./pages/university.html">Explore the University</a></li>
-          </ul>
+    <div class="tile-group index-blocks" style="background: #fff;">
+      <div class="container">
+        <div class="jumbotron text-center mb-0" style="background: #fff !important;color: #A5A5A5 !important;">
+          <div class="col-md-12">
+            <h1 class="display-4" style="color: #E5D216;">Services</h1>
+            <p class="lead" style="text-align: justify;font-size: 1.1rem;line-height: 1.15rem;letter-spacing: .01em;">
+              A terrific laptop operator is dependable and in a position to work with interest to element and protection standards. On-the-job education is a appropriate way to find out how to do the job better, so you have to have willingness to analyze and improve. Being a Team Player is quintessential due to the fact that all duties will require shut collaboration with co-workers.
+            </p>
+            <p class="lead">
+              <a href="./pages/services.html" class="btn btn-primary btn-sm text-white font-weight-bold" style="padding: 15px;">Explore the Services</a>
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="tile tile-square tile-2up text-white tile-align-bottom bg-image-cover" style="background: url(./resources/images/medical.jpg) rgba(000, 000, 000, 0.3);background-repeat: no-repeat;background-position: bottom;background-size: cover;background-blend-mode: multiply;">
-        <div class="tile-body">
-          <span class="decorator"></span>
-          <h2>What makes India unique?</h2>
-          <p><span>Extraordinary students from across India</span>.</p>
-          <ul class="link-list">
-            <li><a href="./pages/services.html">Explore the Services</a></li>
-          </ul>
+        <div class="row mb-5">
+          <div class="col-md-6">
+            <div class="card flex-md-row mb-4 box-shadow h-md-250">
+              <div class="card-body d-flex flex-column align-items-start">
+                <strong class="d-inline-block mb-2 text-primary">Medical</strong>
+                <p class="card-text mb-auto">
+                  To assist the college students in choosing the proper path and the quality institute or college there are many academic consultancy companies.
+                </p>
+                <a class="btn btn-primary btn-sm text-white" href="./pages/medical.html" style="padding: 15px;">Continue reading</a>
+              </div>
+              <img class="card-img-right flex-auto d-none d-md-block" alt="Medical" style="width: 200px; height: 250px;" src="./resources/images/medical_home.jpg">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card flex-md-row mb-4 box-shadow h-md-250">
+              <div class="card-body d-flex flex-column align-items-start">
+                <strong class="d-inline-block mb-2 text-success">Engineering</strong>
+                <p class="card-text mb-auto">
+                  They do hear to the question and do thorough discussions and assist dad and mom and college students taking the proper decision.
+                </p>
+                <a class="btn btn-primary btn-sm text-white" href="./pages/engineering.html" style="padding: 15px">Continue reading</a>
+              </div>
+              <img class="card-img-right flex-auto d-none d-md-block" alt="Engineering" src="./resources/images/engineering_home.jpg" style="width: 200px; height: 250px;">
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
   <div class="container-hybrid">
     <div class="tile-group index-blocks">
+      <div class="tile tile-square tile-2up bg-light-gold" style="background: #e5d216 !important;">
+        <div class="tile-body">
+          <p style="text-align: justify;">
+            Nurture Educational has a exquisite crew of the educated consultants who great journey and stay up to date with the contemporary updates of the training industry. They supply the professional instruction and personalised counseling to the college students at each and every stage in getting admission for analyzing in a reputed college. Every pupil has their man or woman requirement and profession goal; giving utmost value to that the corporation recreation to serve every scholar the high-quality and make positive they get prefer they want.
+          </p>
+          <ul class="link-list">
+            <li><a href="./pages/medical.html">Explore the Madical</a></li>
+          </ul>
+        </div>
+      </div>
       <div class="tile tile-square tile-2up text-white tile-align-bottom bg-image-cover" style="background: url(./resources/images/engineering.jpg) rgba(000, 000, 000, 0.3);background-repeat: no-repeat;background-position: bottom;background-size: cover;background-blend-mode: multiply;">
         <div class="tile-body">
-          <span class="decorator"></span>
-          <h2>What makes India unique?</h2>
-          <p><span>Extraordinary students from across India</span>.</p>
-          <ul class="link-list">
-            <li><a href="./pages/services.html">Explore the Services</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="tile tile-square tile-2up bg-light-gold" style="background: #e5d216 !important;">
-        <div class="tile-body">
-          <span class="decorator"></span>
-          <h2>
-            9 out of 10 Indian students who applied to India last year got in.
-          </h2>
           <p>
-            You've got what it takes to get a Indian degree. So what are you
-            waiting for? Find everything you need to apply to the best public
-            university system in the world.
+            <span style="text-align: justify;">Nurture Educational is one of the main consultancies that are supplying its offerings for quite a few years. They have contact with a range of reputed engineering faculties in India. The consultancy gives personalised answer based totally on the man or woman dreams of the students.</span>.
           </p>
           <ul class="link-list">
-            <li><a href="./pages/university.html">Explore the University</a></li>
+            <li><a href="./pages/engineering.html">Explore the Engineering</a></li>
           </ul>
         </div>
       </div>
@@ -341,7 +360,7 @@
         <div class="col-md-4">
           <div class="footer-logo" style="justify-content: center;">
               <a href="/">
-                  <img id="Layer_1_footer" height="50" src="./resources/img/logo-white.png" alt="Nurture International Education Service" />
+                  <img id="Layer_1_footer" height="50" src="./resources/favicons/logo-white.png" alt="Nurture International Education Service" />
               </a>
           </div>
         </div>
@@ -364,25 +383,8 @@
     </div>
   </footer>
   <script src="//code.tidio.co/jzjrm4hx73b2ydbsxrsjcyszu1omzk9v.js" async></script>
-  <script src="./resources/js/1.44276ae7.chunk.js"></script>
-  <script src="./resources/js/app.5592950d.js"></script>
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script type="text/javascript">
-    document.addEventListener('contextmenu', event => {
-        alert('Right Click Not Work. Copyright ©2021 Nurture International Education Service.')
-        event.preventDefault()
-    })
-    $(document).keydown(function (event) {
-        if (event.ctrlKey && (event.keyCode === 85)) {
-            alert('View Page Source Not Work. Copyright ©2021 Nurture International Education Service.')
-            return false;
-        }
-        if ((event.ctrlKey && event.shiftKey && event.keyCode === 73) || (event.ctrlKey && event.shiftKey && event.keyCode === 74)) {
-            alert('Inspect Element Not Work. Copyright ©2021 Nurture International Education Service.')
-            return false;
-        }
-    });
-  </script> -->
+  <script src="./resources/js/script.min.js" type="text/javascript"></script>
+  <script src="./resources/js/app.min.js" type="text/javascript"></script>
 </body>
 
 </html>
